@@ -1,0 +1,32 @@
+{
+  "name": "sinonjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/karma/bin/karma start  --single-run"
+  },
+  "author": "Noctis Hsu",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-mock": "^1.0.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "karma": "^1.3.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-html-reporter": "^0.2.6",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.0.0",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "karma-sinon": "^1.0.5",
+    "karma-sinon-stub-promise": "^1.0.0",
+    "mocha": "^3.1.2",
+    "phantomjs": "^2.1.7",
+    "sinon": "^1.17.6",
+    "sinon-stub-promise": "^4.0.0",
+    "webpack": "^1.13.3"
+  }
+}
